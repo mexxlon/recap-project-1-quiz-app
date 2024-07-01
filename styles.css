@@ -15,22 +15,38 @@ body {
   justify-content: center;
   align-items: center;
   background-color: powderblue;
-  padding: 5px 5px;
+  padding: 10px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-  width: 60%;
-  height: 40%;
+  width: 100%;
+  height: auto;
   max-width: 400px;
   padding: 10px;
 }
 
-/*.main-container {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-background-color: powderblue;
-width: 80%;
-height: 70%;
-padding: 10px;
-}+/
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: powderblue;
+  width: 800px;
+  height: auto;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.question-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: steelblue;
+  width: 75%;
+  max-width: 800px;
+  height: 500px;
+  padding: 10px;
+  margin: 5px;
+}
