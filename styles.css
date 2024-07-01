@@ -65,7 +65,11 @@ body {
 
 .card-bookmark:hover {
   cursor: pointer;
-  opacity: 0.75;
+  opacity: 0.5;
+}
+
+.card-bookmark:active {
+  transform: scale(0.95);
 }
 
 .button {
@@ -84,7 +88,7 @@ body {
   border-radius: 10px;
 }
 .button:hover {
-  background-color: #3838ff;
+  background-color: cornflowerblue;
 }
 .button:active {
   transform: scale(0.95);
@@ -101,17 +105,16 @@ body {
   left: 0;
   width: 100%;
   background-color: grey;
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
+  border-top: 2px solid honeydew;
   padding: 5px 0;
   text-align: center;
   z-index: 100;
   box-sizing: border-box;
 }
 
-.navigation-bar .icon {
-  margin: 0 10px;
+.navigation-bar .icon:active {
   font-size: 20px;
+  transform: scale(0.95);
 }
 
 .navigation-bar .icon:hover {
