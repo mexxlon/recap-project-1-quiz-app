@@ -45,8 +45,33 @@ body {
   align-items: center;
   background-color: steelblue;
   width: 75%;
-  max-width: 800px;
-  height: 500px;
+  max-width: 600px;
+  height: 400px;
   padding: 10px;
   margin: 5px;
+}
+
+.navigation-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  border-top: 1px solid #ccc;
+  padding: 5px 0;
+  text-align: center;
+  z-index: 1;
+}
+
+.navigation-bar .icon {
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.navigation-bar .icon:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }
