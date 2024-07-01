@@ -48,6 +48,7 @@ body {
   align-items: center;
   position: relative;
   background-color: steelblue;
+  font-size: 25px;
   width: 60%;
   max-width: 600px;
   height: 300px;
