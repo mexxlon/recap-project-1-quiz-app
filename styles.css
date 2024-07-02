@@ -32,11 +32,9 @@ body {
   align-items: center;
   flex: 1;
   background-color: powderblue;
-  width: 800px;
+  width: 50em;
   height: auto;
-  padding: 10px;
-  padding-bottom: 100px;
-  margin: 5px;
+  padding-bottom: 8em;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
@@ -103,8 +101,7 @@ body {
   position: fixed;
   gap: 25px;
   bottom: 0;
-  left: 0;
-  width: 100%;
+  width: 50em;
   background-color: grey;
   border-top: 2px solid honeydew;
   padding: 5px 0;

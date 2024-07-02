@@ -1,0 +1,33 @@
+@import "./global.css";
+@import "./navigation.css";
+@import "./cards.css";
+@import "./buttons.css";
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: powderblue;
+  padding: 10px;
+  margin: 1px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  width: 30em;
+  height: auto;
+  max-width: 30em;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  background-color: powderblue;
+  width: 50em;
+  height: auto;
+  padding-bottom: 8em;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}

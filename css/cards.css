@@ -1,0 +1,31 @@
+.question-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: steelblue;
+  font-size: 25px;
+  width: 60%;
+  max-width: 600px;
+  height: 300px;
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.card-bookmark {
+  position: absolute;
+  top: -20px;
+  right: 0px;
+  font-size: 5%;
+}
+
+.card-bookmark:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.card-bookmark:active {
+  transform: scale(0.95);
+}
