@@ -7,8 +7,8 @@
   gap: 25px;
   bottom: 0;
   width: 50em;
-  background-color: grey;
-  border-top: 2px solid honeydew;
+  background-color: var(--navigation-background);
+  border-top: 2px solid var(--body-background);
   padding: 5px 0;
   text-align: center;
   z-index: 100;

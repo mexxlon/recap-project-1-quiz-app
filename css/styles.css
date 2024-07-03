@@ -3,12 +3,22 @@
 @import "./cards.css";
 @import "./buttons.css";
 
+:root {
+  --body-background: #f0fff0;
+  --card-background: #4682b4;
+  --card-font-color__button: white;
+  --card-button__hover: cornflowerblue;
+  --card-button-background: #1c1c1c;
+  --container-background: #b0e0e6;
+  --navigation-background: grey;
+}
+
 .title-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: powderblue;
+  background-color: var(--container-background);
   padding: 10px;
   margin: 1px;
   border-radius: 5px;
@@ -24,7 +34,7 @@
   justify-content: center;
   align-items: center;
   flex: 1;
-  background-color: powderblue;
+  background-color: var(--container-background);
   width: 50em;
   height: auto;
   padding-bottom: 8em;

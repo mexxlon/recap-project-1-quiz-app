@@ -1,7 +1,7 @@
 .button {
   width: 120px;
   height: 40px;
-  color: #fff;
+  color: var(--card-font-color__button);
   cursor: pointer;
   outline: none;
   border: none;
@@ -10,12 +10,12 @@
   font-weight: bold;
   transition: all 0.3s ease;
   position: relative;
-  background-color: #0c0c0c;
+  background-color: var(--card-button-background);
   border-radius: 10px;
 }
 
 .button:hover {
-  background-color: cornflowerblue;
+  background-color: var(--card-button__hover);
 }
 
 .button:active {
