@@ -29,3 +29,7 @@
 .card-bookmark:active {
   transform: scale(0.95);
 }
+
+.answer {
+  display: none;
+}
