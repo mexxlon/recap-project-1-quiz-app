@@ -6,3 +6,12 @@ document.querySelectorAll(".button").forEach((button) => {
     button.textContent = hide ? "Hide answer" : "Show answer";
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const allIcons = document.querySelectorAll(".icon");
+  allIcons.forEach((img) => {
+    img.addEventListener("click", () => {
+      img.classList.toggle("highlighted");
+    });
+  });
+});
