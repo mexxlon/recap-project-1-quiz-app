@@ -4,9 +4,10 @@
   justify-content: center;
   align-items: center;
   position: fixed;
-  gap: 25px;
+  gap: 30px;
   bottom: 0;
   width: 50em;
+  height: 8em;
   background-color: var(--navigation-background);
   border-top: 2px solid var(--body-background);
   padding: 5px 0;
@@ -17,7 +18,7 @@
 }
 
 .navigation-bar .icon:active {
-  font-size: 20px;
+  font-size: 18px;
   transform: scale(0.95);
 }
 
@@ -26,6 +27,10 @@
   opacity: 0.5;
 }
 
-.highlighted {
-  background-color: var(--icon-background__highlight);
+.icon {
+  width: 4em;
+  height: 4em;
+  display: inline-block;
+  text-align: center;
+  line-height: 20%;
 }

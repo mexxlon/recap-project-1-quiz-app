@@ -4,6 +4,7 @@
 @import "./buttons.css";
 @import "./profile.css";
 @import "./bookmark.css";
+@import "./form.css";
 
 :root {
   --body-background: #f0fff0;
