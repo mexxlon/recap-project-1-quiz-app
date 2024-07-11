@@ -2,6 +2,8 @@
 @import "./navigation.css";
 @import "./cards.css";
 @import "./buttons.css";
+@import "./profile.css";
+@import "./bookmark.css";
 
 :root {
   --body-background: #f0fff0;
