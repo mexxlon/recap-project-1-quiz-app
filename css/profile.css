@@ -1,0 +1,104 @@
+.profile-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  background-color: var(--container-background);
+  width: 50em;
+  padding: 2em 0 8em 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.profile-header {
+  display: flex;
+  flex-direction: row;
+  gap: 5em;
+  margin-top: 2em;
+}
+
+.profile-pic {
+  max-width: 4em;
+  max-height: 4em;
+}
+
+.profile-name {
+  display: flex;
+}
+
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: auto;
+  height: auto;
+  margin: 1em;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: var(--container-background);
+}
+
+.about-me-text {
+  text-align: justify;
+  margin: 1em;
+  padding: 1em;
+}
+
+.about-me p {
+  margin: 0;
+  padding: 1em;
+  background-color: var(--container-background);
+}
+
+.question-bookmark-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  margin: 1em;
+  padding: 1em;
+  width: auto;
+  height: auto;
+  justify-content: center;
+}
+
+.question-counter,
+.bookmark-counter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 6em;
+  height: 2em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: var(--container-background);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.settings-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2em;
+  margin: 1em;
+  padding: 1em;
+  width: auto;
+  height: auto;
+  justify-content: center;
+}
+
+.settings,
+.dark-mode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  width: 10em;
+  height: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: var(--container-background);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

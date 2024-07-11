@@ -2,6 +2,8 @@
 @import "./navigation.css";
 @import "./cards.css";
 @import "./buttons.css";
+@import "./profile.css";
+@import "./bookmark.css";
 
 :root {
   --body-background: #f0fff0;
@@ -11,6 +13,7 @@
   --card-button-background: #1c1c1c;
   --container-background: #b0e0e6;
   --navigation-background: grey;
+  --icon-background__highlight: #2ed573;
 }
 
 .title-container {
