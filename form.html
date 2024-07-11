@@ -17,8 +17,24 @@
     </header>
 
     <main>
-      <section class="main-container">
-        
+    <section class="main-container">
+        <form action="/submit" method="post"></form>
+        <section class="question-container">
+                <label for="question">Your question:</label><br>
+                <textarea id="question" name="question" rows="4" cols="50"></textarea><br>
+
+        </section>
+        <section class="answer-container">
+                <label for="answer">Your answer:</label><br>
+                <textarea id="answer" name="answer" rows="4" cols="50"></textarea><br>
+        </section>
+        <section class="tag-container">
+                <label for="tag">Tags:</label><br>
+                <textarea id="tag" name="tag" rows="4" cols="50"></textarea><br>
+        </section>
+        <button type="submit" class="button">Submit</button>
+    </section>
+
       </section>
       <nav class="navigation-bar">
         <a href="index.html">

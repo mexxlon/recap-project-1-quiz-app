@@ -41,7 +41,8 @@
   background-color: var(--container-background);
   width: 50em;
   height: auto;
-  padding-bottom: 8em;
+  padding-top: 4em;
+  padding-bottom: 10em;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
