@@ -34,3 +34,9 @@
   text-align: center;
   line-height: 20%;
 }
+
+.icon.active {
+  background-color: var(--active-background-color);
+  border-radius: 50%;
+  opacity: 1;
+}
