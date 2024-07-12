@@ -8,26 +8,18 @@ document.querySelectorAll(".button").forEach((button) => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-  const icons = document.querySelectorAll(".navigation-bar .icon");
-  const removeAllActive = () => {
-    icons.forEach((i) => i.classList.remove("active"));
-  };
+  const icons = document.querySelectorAll(".icon");
 
   icons.forEach((icon) => {
-    icon.addEventListener("click", (event) => {
-      event.preventDefault();
-
-      removeAllActive();
-
-      icon.classList.add("active");
-    });
-  });
-
-  const currentPage = window.location.pathname;
-  icons.forEach((icon) => {
-    // Vergleichen des href jedes Icons mit dem aktuellen Seitenpfad
-    if (icon.parentElement.pathname === currentPage) {
+    const link = icon.parentElement;
+    if (link.pathname === window.location.pathname) {
       icon.classList.add("active");
     }
+
+    link.addEventListener("click", (event) => {
+      icons.forEach((i) => i.classList.remove("active"));
+      icon.classList.add("active");
+      window.location.pathname === link.pathname;
+    });
   });
 });
