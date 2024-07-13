@@ -23,3 +23,25 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const bookmarkIcons = document.querySelectorAll(
+    ".card-bookmark-icon, .card-bookmark-icon-checked"
+  );
+
+  bookmarkIcons.forEach((icon) => {
+    icon.addEventListener("click", () => {
+      if (icon.classList.contains("card-bookmark-icon")) {
+        icon.classList.remove("card-bookmark-icon");
+        icon.classList.add("card-bookmark-icon-checked");
+        icon.src =
+          "https://img.icons8.com/?size=100&id=6g3r9r3bnFU9&format=png&color=FA5252";
+      } else {
+        icon.classList.remove("card-bookmark-icon-checked");
+        icon.classList.add("card-bookmark-icon");
+        icon.src =
+          "https://img.icons8.com/?size=100&id=sbP8MaAzMcPh&format=png&color=000000";
+      }
+    });
+  });
+});
