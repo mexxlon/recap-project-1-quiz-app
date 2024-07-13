@@ -14,19 +14,22 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.card-bookmark {
+.card-bookmark-icon,
+.card-bookmark-icon-checked {
   position: absolute;
   top: -20px;
   right: 0px;
-  font-size: 5%;
+  max-width: 20%;
 }
 
-.card-bookmark:hover {
+.card-bookmark-icon:hover,
+.card-bookmark-icon-checked:hover {
   cursor: pointer;
   opacity: 0.5;
 }
 
-.card-bookmark:active {
+.card-bookmark-icon:active,
+.card-bookmark-icon-checked:active {
   transform: scale(0.95);
 }
 
